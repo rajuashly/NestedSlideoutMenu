@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<MasterDetailPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:controls="clr-namespace:ImageCircle.Forms.Plugin.Abstractions;assembly=ImageCircle.Forms.Plugin"
+             xmlns:local="clr-namespace:NestedSlideoutMenu.CustomControls;assembly=NestedSlideoutMenu" 
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"          
+             xmlns:xfg="clr-namespace:XFGloss;assembly=XFGloss"
+             x:Class="NestedSlideoutMenu.MainPage">
+    <MasterDetailPage.Master>
+        <ContentPage x:Name="menuContent" Title="Menu" BackgroundColor="#2588EE" Opacity="0.95">
+            <xfg:ContentPageGloss.BackgroundGradient >
+                <xfg:Gradient Rotation="150">
+                    <xfg:GradientStep StepColor="#03A9F4" StepPercentage="0" />
+                    <xfg:GradientStep StepColor="#303F9F" StepPercentage="1" />
+                </xfg:Gradient>
+            </xfg:ContentPageGloss.BackgroundGradient>
+            <StackLayout Orientation="Vertical" VerticalOptions="FillAndExpand">
+                <StackLayout VerticalOptions="Start">
+                    <Grid>
+                        <Grid.Margin>
+                            <OnPlatform x:TypeArguments="Thickness">
+                                <On Platform="iOS" Value="0,25,0,0" />
+                            </OnPlatform>
+                        </Grid.Margin>
+                        <Grid.ColumnDefinitions>
+                            <ColumnDefinition Width="30"/>
+                            <ColumnDefinition Width="30"/>
+                            <ColumnDefinition Width="*"/>
+                        </Grid.ColumnDefinitions>
+                        <Grid.RowDefinitions>
+                            <RowDefinition Height="Auto"/>
+                            <RowDefinition Height="30"/>
+                            <RowDefinition Height="Auto"/>
+                        </Grid.RowDefinitions>
+                        <controls:CircleImage x:Name="ImgCompanyLogo" Margin="5,15,0,0" BorderColor="White" BorderThickness="0.5" Grid.ColumnSpan="2" Grid.RowSpan="2" Aspect="AspectFit" HorizontalOptions="Fill" VerticalOptions="Fill" WidthRequest="60" HeightRequest="60"/>
+                        <StackLayout  HorizontalOptions="FillAndExpand" Orientation="Vertical" VerticalOptions="Center"  Grid.RowSpan="3"  Grid.Column="2" >
+                            <Label x:Name="lblCompanyName" TextColor="White" Text="" FontSize="16" FontAttributes="Bold" HorizontalOptions="Start" VerticalTextAlignment="Center" VerticalOptions="Center" Style="{DynamicResource SubtitleStyle}"/>
+                            <Label x:Name="Username" TextColor="White" FontSize="14" Text="" HorizontalOptions="Start" VerticalTextAlignment="Center" VerticalOptions="Center" Style="{DynamicResource SubtitleStyle}"/>
+                        </StackLayout>
+                    </Grid>
+                </StackLayout>
+                <StackLayout VerticalOptions="FillAndExpand">
+
+                    <ListView x:Name="navigationDrawerList" RowHeight="60" SeparatorVisibility="None" ItemSelected="OnMenuItemSelected" BackgroundColor="Transparent">
+                        <ListView.ItemTemplate>
+                            <DataTemplate>
+                                <local:ExtendedViewCell SelectedBackgroundColor="#0099CC">
+                                    <ViewCell.View>
+                                        <Grid Padding="5,5">
+                                            <Grid.ColumnDefinitions>
+                                                <ColumnDefinition Width="Auto" />
+                                                <ColumnDefinition Width="*" />
+                                                <ColumnDefinition Width="Auto" />
+                                            </Grid.ColumnDefinitions>
+                                            <controls:CircleImage Source="{Binding Icon}" BorderColor="{Binding BorderColor}" BorderThickness="{Binding BorderThickness}" VerticalOptions="Center" Aspect="AspectFit" HeightRequest="40" WidthRequest="40"/>
+                                            <StackLayout Grid.Column="1" VerticalOptions="Center" HorizontalOptions="FillAndExpand" Orientation="Vertical">
+                                                <Label Grid.Column="1"  Text="{Binding Title}"  VerticalOptions="Center" TextColor="White"/>
+                                            </StackLayout>
+                                            <Label Grid.Column="2" Text="{Binding Count}" VerticalOptions="Center" HorizontalOptions="End" TextColor="{Binding TextColor}" Margin="0,0,10,0"/>
+                                        </Grid>
+                                    </ViewCell.View>
+                                </local:ExtendedViewCell>
+                            </DataTemplate>
+                        </ListView.ItemTemplate>
+                    </ListView>
+                </StackLayout>
+                <StackLayout VerticalOptions="End">
+                    <BoxView Color="White" HeightRequest="0.3" HorizontalOptions="FillAndExpand" VerticalOptions="EndAndExpand"  Opacity="0.9"/>
+                    <StackLayout Orientation="Horizontal" HorizontalOptions="EndAndExpand" Margin="0,0,10,5" HeightRequest="26" VerticalOptions="End">
+                        <Label x:Name="lblVersion"  HorizontalOptions="StartAndExpand" TextColor="White" Opacity="0.7" VerticalTextAlignment="Center" FontSize="13"/>
+                    </StackLayout>
+                </StackLayout>
+            </StackLayout>
+        </ContentPage>
+    </MasterDetailPage.Master>
+
+    <MasterDetailPage.Detail>
+        <NavigationPage BackgroundColor="White" BarTextColor="White" x:Name="Navigation">
+
+        </NavigationPage>
+    </MasterDetailPage.Detail>
+</MasterDetailPage>

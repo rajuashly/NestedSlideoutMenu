@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+  <style name="MainTheme" parent="MainTheme.Base">
+  </style>
+  
+  <!--<style name="MainTheme.Base" parent="Theme.AppCompat.Light.DarkActionBar">
+    --><!--<item name="android:alertDialogTheme">@style/AppCompatDialogStyle</item>--><!--
+  </style>-->
+
+  <!--<style name="AppCompatDialogStyle" parent="Theme.AppCompat.Light.Dialog">
+    <item name="colorAccent">@color/colorAccent</item>
+  </style>-->
+  <!--<item name="android:colorPressedHighlight">@color/colorAccent</item>
+    <item name="android:colorLongPressedHighlight">@color/colorAccent</item>
+    <item name="android:colorFocusedHighlight">@color/colorAccent</item>
+    <item name="android:colorActivatedHighlight">@color/listiewselected</item>
+    <item name="android:activatedBackgroundIndicator">@color/colorAccent</item>-->
+
+</resources>

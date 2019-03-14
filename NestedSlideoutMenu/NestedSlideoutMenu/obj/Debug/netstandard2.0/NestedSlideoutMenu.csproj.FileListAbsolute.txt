@@ -1,0 +1,26 @@
+C:\Users\Admin\Documents\Visual Studio 2017\Projects\NestedSlideoutMenu\NestedSlideoutMenu\NestedSlideoutMenu\bin\Debug\netstandard2.0\NestedSlideoutMenu.deps.json
+C:\Users\Admin\Documents\Visual Studio 2017\Projects\NestedSlideoutMenu\NestedSlideoutMenu\NestedSlideoutMenu\bin\Debug\netstandard2.0\NestedSlideoutMenu.dll
+C:\Users\Admin\Documents\Visual Studio 2017\Projects\NestedSlideoutMenu\NestedSlideoutMenu\NestedSlideoutMenu\bin\Debug\netstandard2.0\NestedSlideoutMenu.pdb
+C:\Users\Admin\Documents\Visual Studio 2017\Projects\NestedSlideoutMenu\NestedSlideoutMenu\NestedSlideoutMenu\obj\Debug\netstandard2.0\App.xaml.g.cs
+C:\Users\Admin\Documents\Visual Studio 2017\Projects\NestedSlideoutMenu\NestedSlideoutMenu\NestedSlideoutMenu\obj\Debug\netstandard2.0\MainPage.xaml.g.cs
+C:\Users\Admin\Documents\Visual Studio 2017\Projects\NestedSlideoutMenu\NestedSlideoutMenu\NestedSlideoutMenu\obj\Debug\netstandard2.0\NestedSlideoutMenu.csproj.CoreCompileInputs.cache
+C:\Users\Admin\Documents\Visual Studio 2017\Projects\NestedSlideoutMenu\NestedSlideoutMenu\NestedSlideoutMenu\obj\Debug\netstandard2.0\NestedSlideoutMenu.AssemblyInfoInputs.cache
+C:\Users\Admin\Documents\Visual Studio 2017\Projects\NestedSlideoutMenu\NestedSlideoutMenu\NestedSlideoutMenu\obj\Debug\netstandard2.0\NestedSlideoutMenu.AssemblyInfo.cs
+C:\Users\Admin\Documents\Visual Studio 2017\Projects\NestedSlideoutMenu\NestedSlideoutMenu\NestedSlideoutMenu\obj\Debug\netstandard2.0\XamlC.stamp
+C:\Users\Admin\Documents\Visual Studio 2017\Projects\NestedSlideoutMenu\NestedSlideoutMenu\NestedSlideoutMenu\obj\Debug\netstandard2.0\NestedSlideoutMenu.dll
+C:\Users\Admin\Documents\Visual Studio 2017\Projects\NestedSlideoutMenu\NestedSlideoutMenu\NestedSlideoutMenu\obj\Debug\netstandard2.0\NestedSlideoutMenu.pdb
+C:\Users\Admin\Desktop\NestedSlideoutMenu\NestedSlideoutMenu\NestedSlideoutMenu\bin\Debug\netstandard2.0\NestedSlideoutMenu.deps.json
+C:\Users\Admin\Desktop\NestedSlideoutMenu\NestedSlideoutMenu\NestedSlideoutMenu\bin\Debug\netstandard2.0\NestedSlideoutMenu.dll
+C:\Users\Admin\Desktop\NestedSlideoutMenu\NestedSlideoutMenu\NestedSlideoutMenu\bin\Debug\netstandard2.0\NestedSlideoutMenu.pdb
+C:\Users\Admin\Desktop\NestedSlideoutMenu\NestedSlideoutMenu\NestedSlideoutMenu\obj\Debug\netstandard2.0\NestedSlideoutMenu.csprojAssemblyReference.cache
+C:\Users\Admin\Desktop\NestedSlideoutMenu\NestedSlideoutMenu\NestedSlideoutMenu\obj\Debug\netstandard2.0\App.xaml.g.cs
+C:\Users\Admin\Desktop\NestedSlideoutMenu\NestedSlideoutMenu\NestedSlideoutMenu\obj\Debug\netstandard2.0\Home.xaml.g.cs
+C:\Users\Admin\Desktop\NestedSlideoutMenu\NestedSlideoutMenu\NestedSlideoutMenu\obj\Debug\netstandard2.0\LoginPage.xaml.g.cs
+C:\Users\Admin\Desktop\NestedSlideoutMenu\NestedSlideoutMenu\NestedSlideoutMenu\obj\Debug\netstandard2.0\MainPage.xaml.g.cs
+C:\Users\Admin\Desktop\NestedSlideoutMenu\NestedSlideoutMenu\NestedSlideoutMenu\obj\Debug\netstandard2.0\PageFour.xaml.g.cs
+C:\Users\Admin\Desktop\NestedSlideoutMenu\NestedSlideoutMenu\NestedSlideoutMenu\obj\Debug\netstandard2.0\NestedSlideoutMenu.csproj.CoreCompileInputs.cache
+C:\Users\Admin\Desktop\NestedSlideoutMenu\NestedSlideoutMenu\NestedSlideoutMenu\obj\Debug\netstandard2.0\NestedSlideoutMenu.AssemblyInfoInputs.cache
+C:\Users\Admin\Desktop\NestedSlideoutMenu\NestedSlideoutMenu\NestedSlideoutMenu\obj\Debug\netstandard2.0\NestedSlideoutMenu.AssemblyInfo.cs
+C:\Users\Admin\Desktop\NestedSlideoutMenu\NestedSlideoutMenu\NestedSlideoutMenu\obj\Debug\netstandard2.0\XamlC.stamp
+C:\Users\Admin\Desktop\NestedSlideoutMenu\NestedSlideoutMenu\NestedSlideoutMenu\obj\Debug\netstandard2.0\NestedSlideoutMenu.dll
+C:\Users\Admin\Desktop\NestedSlideoutMenu\NestedSlideoutMenu\NestedSlideoutMenu\obj\Debug\netstandard2.0\NestedSlideoutMenu.pdb
